@@ -17,6 +17,8 @@ public class BallGyro : MonoBehaviour
 
     private void Update()
     {
+
+        
         
         float moveX = Input.acceleration.x;
         float moveZ = Input.acceleration.y;
